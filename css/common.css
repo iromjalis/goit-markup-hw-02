@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --team-bg-color: #f5f4fa;
   --bg-color: #e5e5e5;
+  --footer-bg-color: #2f303a;
 }
 
 /*для сброса настроек списка без маркера */
@@ -55,7 +56,6 @@ a:focus img {
 
 .link:hover,
 .link:focus {
-  color: var(--title-text-color);
   border-bottom: 2px solid var(--accent-color);
 }
 
@@ -84,4 +84,60 @@ a:focus img {
 .auth-btn a:active {
   color: var(--accent-color);
   border-bottom: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address > .contacts.link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address > .address.link,
+.address.link:focus {
+  color: var(--primary-white-color);
+}
+
+.footer > .work-example {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.work-example:hover {
+}
+
+link > .some:focus,
+lonk > .some:hover {
+  border: 3px solid var(--accent-color);
+}
+
+.focus-bg {
+  width: 0;
+  height: 0;
+  color: var(--footer-bg-color);
+}
+
+.focus-bg:hover,
+.focus-bg:active,
+.focus-bg:focus {
+  width: auto;
+  height: auto;
 }

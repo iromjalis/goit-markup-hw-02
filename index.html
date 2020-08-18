@@ -16,7 +16,7 @@
     <!--Шапка сайта-->
     <header class="page-header">
         <nav>
-            <a href="./index.html"> <img src="./images/WebStudio.svg" alt="Logo" width: 145px; height: 31px;
+            <a href="./index.html"> <img src="./images/WebStudio.svg" alt="Лого" width: 145px; height: 31px;
                     class="logo"></a>
 
             <ul class="site-nav list">
@@ -50,7 +50,7 @@
 
         <!--перечисление приемуществ H2-->
         <section>
-            <h2 class="hidden-title">Особенности</h2>
+            <h2 hidden>Особенности</h2>
             <ul>
                 <li>
                     <img src="./images/Vector1.png" width="65.32" height="70" alt="тв тарелка">
@@ -198,8 +198,8 @@
                                     alt=" Инстаграм"></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com"><img src="./images/twitter.png" width="20" height="16.25 alt="
-                                    Твиттер "></a>
+                            <a href="https://twitter.com">
+                                <img src="./images/twitter.png" width="20" height="16.25 alt=" Твиттер "></a>
                         </li>
                         <li>
                             <a href=" https://facebook.com"><img src="./images/Facebook.png" width="10" height="20"
@@ -244,41 +244,47 @@
     </main>
 
     <!--футер-->
-    <footer>
+    <footer class="footer">
         <!--Адрес вебстудии-->
 
         <div>
-            <a href="/"> <span>Web</span> Studio</a>
+            <a href="/"> <img src="./images/WebStudio.svg" alt="Лого"></a>
 
-            <address>
-                г. Киев, пр-т Леси Украинки, 26 <br />
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <address class="address">
+                <span class="address link">г. Киев, пр-т Леси Украинки, 26</span> <br />
+                <a href="mailto:info@devstudio.com" class="contacts link">info@devstudio.com</a> <br />
+                <a href="tel:+380961111111" class="contacts link">+38 096 111 11 11</a>
             </address>
         </div>
 
         <div>
             <!--Присоединяйтесь-->
-            <b>Присоединяйтесь</b>
-            <ul>
-                <li>
-                    <a href="https://facebook.com" aria-label="Ссылка на Инстаграм">Инста</a>
+            <b class="work-example">Присоединяйтесь</b>
+            <ul class="list">
+                <li class="some">
+                    <a href="https://www.instagram.com" aria-label="Ссылка на Инстаграм">
+                        <img class="focus-bg" src="./images/blue-ellipse.svg" alt="Синий фон">
+                        <img src="./images/instagram.png" alt="Инста">
+                    </a>
                 </li>
-                <li>
-                    <a href="https://twitter.com" aria-label="ссылка на Твиттер">Твиттер</a>
+                <li class="some">
+                    <img src="./images/twitter.png" alt="Твиттер">
+                    <a href="https://twitter.com" aria-label="ссылка на Твиттер"></a>
                 </li>
-                <li>
-                    <a href="https://facebook.com" aria-label="ссылка на Фейсбук">Фб</a>
+                <li class="list">
+                    <img src="./images/Facebook.png" alt="Фб">
+                    <a href="https://facebook.com" aria-label="ссылка на Фейсбук"></a>
                 </li>
-                <li>
-                    <a href="https://linkedin.com" aria-label="ссылка на Линкедин">Линкедин</a>
+                <li class="list">
+                    <img src="./images/linkedin.png" alt="Линкедин>
+                    <a href=" https://www.linkedin.com" aria-label="ссылка на Линкедин"></a>
                 </li>
             </ul>
         </div>
 
         <div>
             <!--Подпишитесь на рассылку-->
-            <b>Подпишитесь на рассылку</b>
+            <b class="work-example">Подпишитесь на рассылку</b>
             <input type="email" value="" placeholder="E-mail">
             <a class="button" href="./index.html"> Подписаться <img src="./images/samoletik.png" width="24px"
                     alt="Самолетик">
