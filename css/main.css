@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --team-bg-color: #f5f4fa;
   --bg-color: #e5e5e5;
+  --footer-bg: #2F303A;
 }
 
 /* основной текст #757575 */
@@ -18,7 +19,7 @@
 
 /*для сброса настроек списка без маркера */
 
-.list {
+ul {
   list-style: none;
 }
 
@@ -91,19 +92,25 @@ a:focus img,
 
 /*Заказать услугу*/
 .button {
-  color: var(--primary-bg-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  border-color:  var(--accent-color);
 
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 62px 10px 25px;
-  
+}
+
+.button:hover,
+.button:focus,
+.button:active{
+  color:(var(--primary-white-color))
 }
 
 /*преимущества*/
@@ -130,7 +137,9 @@ a:focus img,
 }
 
 /*Десктопные приложения*/
-.work-example {
+.work-example,
+.work-example
+ {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
@@ -138,6 +147,7 @@ a:focus img,
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color); /*изменить на #fff*/
 }
+
 
 /*team name*/
 .name {
@@ -170,5 +180,20 @@ a:focus img,
 .clients img:hover,
 .clients img:focus{
   border: 3px solid var(--accent-color);
+}
 
+.address.link{
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color)
+}
+footer{
+  background-color: var(--footer-bg);
+}
+.contacts.link{
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color)
 }

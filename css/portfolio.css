@@ -1,0 +1,58 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --team-bg-color: #f5f4fa;
+  --bg-color: #e5e5e5;
+  --footer-bg-color: #2f303a;
+}
+
+ul {
+  list-style: none;
+}
+
+body{
+  font-family: Roboto, serif;
+}
+
+.link{
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
+}
+
+a:hover img,
+a:focus img,
+.link:hover,
+.link:focus,
+.auth-btn a:hover,
+.auth-btn:focus {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.button.nav{
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--title-text-color);
+  border: none;
+  box-shadow: none;
+  background-color: var(--team-bg-color);
+}
+
+
+.button.nav:active,
+.button.nav:focus{
+  border: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.example{
+  color: var(--primary-white-color);
+}
+.example:focus,
+.example:active,
+.example:hover{
+  background-color: var(--accent-color);
+  
+}
