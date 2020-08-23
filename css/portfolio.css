@@ -14,6 +14,22 @@ ul {
 
 body{
   font-family: Roboto, serif;
+  display: inline;
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color)
+}
+
+.deskription{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 }
 
 .link{
@@ -21,28 +37,39 @@ body{
   letter-spacing: 0.02em;
 }
 
-a:hover img,
+
+a img:hover,
 a:focus img,
 .link:hover,
 .link:focus,
-.auth-btn a:hover,
-.auth-btn:focus {
-  border-bottom: 2px solid var(--accent-color);
+.link:active,
+.auth-btn li:hover,
+.auth-btn li:focus,
+.auth-btn li:active{
+  color: var(--accent-color);
 }
 
-.button.nav{
+/*расположение  кнопок*/
+ul.btn li{
+  display: inline;
+}
+
+/*Кнопки*/
+.button{
+  display: inline;
   font-weight: 500;
   line-height: 1.6;
   color: var(--title-text-color);
   border: none;
   box-shadow: none;
   background-color: var(--team-bg-color);
+  font-weight: 700;
 }
 
 
-.button.nav:active,
-.button.nav:focus{
-  border: var(--accent-color);
+.button:active,
+.button:focus,
+.button:hover{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -54,5 +81,13 @@ a:focus img,
 .example:active,
 .example:hover{
   background-color: var(--accent-color);
-  
 }
+
+ul.img>li{
+  width: 354px;
+}
+
+ul.site-nav li{
+  display: inline;
+}
+

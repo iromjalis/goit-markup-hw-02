@@ -12,54 +12,59 @@
 </head>
 
 <body>
-   
-    <header>
-        <!--Логотип и ссылка на осн страницу-->
-        <a href="/index.html"><img src="./images/WebStudio.svg" alt="Лого"></a>
-    
-        <!--Навигация по страницам сайта (портфолио+контакты)-->
+
+    <!--Шапка сайта-->
+    <header class="page-header">
+        <a href="./index.html"> 
+            <img src="./images/WebStudio.svg" alt="Лого" class="logo">
+        </a>
+
         <nav>
-            <ul>
-                <li><a href="./index.html" class="link">Студия</a></li>
-                <li><a href="/" class="link current">Портфолио</a></li>
+            <ul class="site-nav ">
+                <li><a href="./index.html" class="link current">Студия</a></li>
+                <li><a href="./portfolio.html" class="link ">Портфолио</a></li>
                 <li><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
 
-        <!--Ссылки на емаил и телефон в шапке стр-->
-        <ul>
-            <li class="auth-btn"><img src="./images/envelope.jpg" alt="Конверт">
-                <a href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-            <li class="auth-btn"><img src=" ./images/phone.png" alt="Телефон">
-                <a href="tel:+380961111111" >+38 096 111 11 11</a></li>
+        <!--Контактные е-маил и телефон-->
+        <ul class=" auth-btn list">
+            <li>
+                <img src="./images/envelope.jpg" alt="конверт" width="16" height="12">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <img src="./images/Vector.jpg" alt="телефон" width="10" height="16">
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
         </ul>
 
     </header>
 
+
+
     <main>
         <!--   Наши работы   -->
-        <section>
+        <section >
             <h1 hidden>Портфолио</h1>
-            <!--Навигация по сайту-->
-            <nav class="filter">
                 <!--   Радиокнопки   -->
-                <div >
-                    <button type="button" class="button nav "><span class="link">Все</span></button>
-                    <button type="button" class="button nav "><span class="link">Веб-сайты</span></button>
-                    <button type="button" class="button nav "><span class="link">Приложения</span></button>
-                    <button type="button" class="button nav "><span class="link">Дизайн</span></button>
-                    <button type="button" class="button nav "><span class="link">Маркетинг</span></button>
-                </div>
-            </nav>
+                    <ul class="btn">
+                        <li><button type="button" class="button ">Все</button></li>
+                        <li><button type="button" class="button ">Веб-сайты</button></li>
+                        <li><button type="button" class="button ">Приложения</button></li>
+                        <li><button type="button" class="button ">Дизайн</button></li>
+                        <li><button type="button" class="button ">Маркетинг</button></li>
+                    </ul> 
+               
 
-            <ul>
+            <ul class="img">
                 <li>
                     <a href="">
                         <!--   Картинка №1   -->
                         <img src="./images/portfolio1.jpg" alt="3 билб
                         орда">
-                        <h2 class="link">Технокряк</h2>
-                        <p class="link">Веб-сайт</p>
+                        <h2 class="heading">Технокряк</h2>
+                        <p class="description">Веб-сайт</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
 
@@ -68,9 +73,9 @@
                 <li>
                     <a href="" >
                         <!--   Картинка №2   -->
-                        <img src="./images/portfolio2.jpg" alt="Баскетболисты" class="button nav">
-                        <h2 class="link">Постер New Orlean vs Golden Star</h2>
-                        <p class="link">Дизайн</p>
+                        <img src="./images/portfolio2.jpg" alt="Баскетболисты" >
+                        <h2 class="heading">Постер New Orlean vs Golden Star</h2>
+                        <p class="description">Дизайн</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
 
@@ -80,8 +85,8 @@
                     <a href="">
                         <!--   Картинка №3   -->
                         <img src="./images/portfolio3.jpg" alt="Лого ресторана seafood">
-                        <h2 class="link">Ресторан Seafood</h2>
-                        <p class="link">Приложение</p>
+                        <h2 class="heading">Ресторан Seafood</h2>
+                        <p class="description">Приложение</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -90,8 +95,8 @@
                     <a href="">
                         <!--   Картинка №4   -->
                         <img src="./images/portfolio4.jpg" alt="Наушники">
-                        <h2 class="link">Проект Prime</h2>
-                        <p class="link">Маркетинг</p>
+                        <h2 class="heading">Проект Prime</h2>
+                        <p class="description">Маркетинг</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -100,8 +105,8 @@
                     <a href="">
                         <!--   Картинка №5   -->
                         <img src="./images/portfolio5.jpg" alt="Коробки">
-                        <h2 class="link">Проект Boxes</h2>
-                        <p class="link">Приложение</p>
+                        <h2 class="heading">Проект Boxes</h2>
+                        <p class="description">Приложение</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -110,8 +115,8 @@
                     <a href="">
                         <!--   Картинка №6  -->
                         <img src="./images/portfolio6.jpg" alt="Экран">
-                        <h2 class="link">Постер New Orlean vs Golden Star</h2>
-                        <p class="link">Веб-сайт</p>
+                        <h2 class="heading">Постер New Orlean vs Golden Star</h2>
+                        <p class="description">Веб-сайт</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -120,8 +125,8 @@
                     <a href="">
                         <!--   Картинка №7   -->
                         <img src="./images/portfolio7.jpg" alt="Книга">
-                        <h2 class="link">Издание Limited Edition</h2>
-                        <p class="link">Дизайн</p>
+                        <h2 class="heading">Издание Limited Edition</h2>
+                        <p class="description">Дизайн</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -130,8 +135,8 @@
                     <a href="">
                         <!--   Картинка №8   -->
                         <img src="./images/portfolio8.jpg" alt="Бирка">
-                        <h2 class="link">Проект LAB</h2>
-                        <p class="link">Маркетинг</p>
+                        <h2 class="heading">Проект LAB</h2>
+                        <p class="description>Маркетинг</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
@@ -140,8 +145,8 @@
                     <a href="">
                         <!--   Картинка №9   -->
                         <img src="./images/portfolio9.jpg" alt="Ноутбук">
-                        <h2 class="link">Growing Business</h2>
-                        <p class="link">Приложение</p>
+                        <h2 class="heading">Growing Business</h2>
+                        <p class="description">Приложение</p>
                         <p class="example">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                             платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     </a>
