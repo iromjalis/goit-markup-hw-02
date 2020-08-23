@@ -82,12 +82,3 @@ ul.btn li{
 .example:hover{
   background-color: var(--accent-color);
 }
-
-ul.img>li{
-  width: 354px;
-}
-
-ul.site-nav li{
-  display: inline;
-}
-
