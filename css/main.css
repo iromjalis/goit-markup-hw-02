@@ -13,7 +13,6 @@ a{
   text-decoration: none;
 }
 
-
 :root{
   --text-color: #757575;
   --title-color: #212121;
@@ -75,7 +74,8 @@ header{
   background-color: var(--hero-bg);
 }
 
-.hero-btn{
+button.hero-btn{
+  cursor: pointer;
   font-family: 'Roboto', sans-serif;  
   font-weight: 700;
   font-size: 16px;
@@ -87,10 +87,13 @@ header{
   color: var(--white-color);
 }
 
+.button:hover,
 .hero-btn:hover,
 .hero-btn:focus{
   color: var(--title-color);
+  cursor: pointer;
 }
+
 
 .team{
   background-color: var(--team-bg);
