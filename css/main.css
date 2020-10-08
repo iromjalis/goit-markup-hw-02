@@ -25,6 +25,18 @@ a{
   --address-color: #rgba(255, 255, 255, 0.6);
 }
 
+.logo-link{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.logo-link .current{
+  color: var(--accent-color);
+}
+
 body{
   font-family: 'Roboto', sans-serif;   
   font-style: 400;
