@@ -9,8 +9,9 @@ ul{
   list-style: none;
 }
 
-a{
+a, .address{
   text-decoration: none;
+  font-style: normal;
 }
 
 :root{
@@ -160,7 +161,14 @@ button.hero-btn{
   color: var(--address-color);
   background-color: var(--hero-bg);
 }
-
-.address.map{
+address{
+  background-color: #fff;
+}
+.address.map, logo-link--footer{
+  font-style: normal;
   color: var(--white-color);
+}
+
+.address{
+  font-style: normal;
 }
