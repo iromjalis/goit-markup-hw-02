@@ -43,6 +43,24 @@ header{
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.logo-link{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.6667;
+  color: var(--title-color);
+}
+
+.logo-link.current{
+  color: var(--accent-color);
+}
+.logo-link--footer{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  line-height: 1.6667;
+  color: var(--white-color);
+}
 .link,
 .nav:visited{
   color: var(--title-color);
@@ -53,7 +71,7 @@ header{
 .current,
 .contacts:hover,
 .contacts:focus{
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .contacts{
